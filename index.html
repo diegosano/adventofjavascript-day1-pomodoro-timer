@@ -11,7 +11,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="ring">
+    <div id="ring" class="ring">
       <svg width="518" height="518" viewBox="0 0 518 518">
         <circle stroke-width="9px" x="0" y="y" cx="259" cy="259" r="254" />
       </svg>
@@ -20,15 +20,15 @@
     <div class="timer">
       <div class="time">
         <div class="minutes">
-          <input type="text" value="15" disabled />
+          <input id="minutes" type="text" value="15" disabled />
         </div>
         <div class="colon">:</div>
         <div class="seconds">
-          <input type="text" value="00" disabled />
+          <input id="seconds" type="text" value="00" disabled />
         </div>
       </div>
-      <button class="start">start</button>
-      <button class="settings">
+      <button id="start" class="start">start</button>
+      <button id="settings" class="settings">
         <img src="assets/images/gear.svg" alt="Settings" />
       </button>
     </div>
