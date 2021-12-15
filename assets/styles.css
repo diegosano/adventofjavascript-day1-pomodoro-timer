@@ -80,7 +80,7 @@ input[type="text"] {
   outline: none;
 }
 
-input[type=text]:disabled {
+input[type="text"]:disabled {
   border-bottom: none;
 }
 
